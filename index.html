@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Scroll CSS</title>
+	<style type="text/css">
+		
+html{
+   scroll-behavior: smooth;
+}
+
+   a{
+   	display: inline-block;
+   	width: auto;
+   	text-decoration: none;
+   	font-size: 1.3em;
+      border: 3px solid black;
+   }
+
+   nav, scroll-container {
+   	display: block;
+   	margin: 0 auto;
+   	text-align: center;
+   }
+
+   nav{
+   	width: 600px;
+   	padding: 5px;
+   	border: 1px solid black;
+   }
+
+   scroll-container{
+   	width: 800px;
+   	height: auto;
+   	position: relative;
+   }
+
+   scroll-page{
+   	border: 1px solid blue;
+   	display: flex;
+   	align-items: center;
+   	justify-content: center;
+   	height: 100%;
+   	font-size: 2em;
+   	margin: 15px;
+   }
+
+   #topo{
+   	position: absolute;
+   	bottom: 15px;
+   	right: 25px;
+   }
+
+
+	</style>
+
+</head>
+<body>
+     <nav>
+     	<a href="#page-1"> Seção 01 </a>
+     	<a href="#page-2"> Seção 02 </a>
+     	<a href="#page-3"> Seção 03 </a>
+      <a href="#page-4"> Seção 04 </a>
+     </nav>
+     <scroll-container>
+        <scroll-page id="page-1">
+        <h2> Dick Grayson </h2> <hr>
+          Richard John Grayson mais conhecido como Dick Grayson, é um personagem fictício do Universo DC de histórias em quadrinhos da editora estadunidense DC Comics. Filho adotivo de Bruce Wayne, o Batman, ele é mais conhecido pelas suas identidades como vigilante-herói de Gotham City. Criado pelo roteirista Bill Finger e pelo desenhista Bob Kane, ele apareceu pela primeira vez em Detective Comics #38 (Abril de 1940) como a encarnação original de Robin, O Garoto Prodígio. Em Tales of the Teen Titans #44 (julho de 1984), o personagem deixa de ser chamado de Robin e assume a identidade de Asa Noturna, criado por Marv Wolfman e George Pérez. Durante os Novos 52, Dick assumiu a identidade de Agente 37 e na atualidade voltou ao posto de Asa Noturna.
+       <a href="#page-1">Seção 1</a>
+      </scroll-page>
+      <scroll-page id="page-2">
+      <h2> Jason Todd </h2> <hr>
+       Jason Peter Todd é um personagem fictício recorrente das histórias em quadrinhos da DC Comics. Sua primeira aparição ocorreu em Batman #357 (Março de 1983), sendo concebido por Gerry Conway e Don Newton.
+
+       Embora inicialmente popular, na sequência de uma remodelação de sua origem por Max Allan Collins, a nova versão de Jason Todd não foi bem recebida pelos fãs. Em 1988, com "Uma Morte na Família", a DC Comics realizou uma pesquisa por telefone para determinar se o personagem iria ou não morrer nas mãos de Coringa (DC Comics), o arquiinimigo de Batman. A votação para que ele morresse foi maior, com isso fazendo que Jason morresse. As histórias de Batman posteriormente retrataram a culpa que Batman sentia por ser incapaz de impedir a morte de Jason. No entanto, em 2005, no arco de história "Sob o Capuz", o personagem foi ressuscitado, tornando-se o segundo Capuz Vermelho e assumindo um novo papel como um anti-herói semelhante a Batman em muitos aspectos, exceto pela preferência em usar força letal e armas.
+      <a href="#page-2">Seção 2</a>
+      </scroll-page>
+
+      <scroll-page id="page-3">
+      <h2> Tim Drake </h2> <hr>
+      Timothy Jackson Drake, mais conhecido como Tim Drake, é um super-herói fictício presente nos quadrinhos publicadas pela DC Comics, em geral associado ao Batman. O personagem foi criado por Marv Wolfman e Pat Broderick estreando em Batman #436 (agosto de 1989) como o terceiro Robin, condição que manteve até 2009. Após os eventos de A Batalha pelo Capuz passou a usar o nome de Robin Vermelho. Atualmente é conhecido como Drake
+
+      O personagem foi apresentado em vários outros formatos, tal como As novas aventuras do Batman e Justiça Jovem: Invasão. Em 2011, Tim Drake figurou em 32º lugar no ranking da IGN que relacionou os 100 maiores super-heróis dos quadrinho
+      <a href="#page-3">Seção 3</a>
+      </scroll-page>
+
+      <scroll-page id="page-4">
+      <h2> Damian Wayne </h2> <hr>
+      Damian Wayne ou Damian al Ghul (árabe: داميان الغول) é um super-herói fictício da história em quadrinhos americana publicada pela DC Comics, comumente em associação com Batman. Ele é o filho de Batman e Talia Al Ghul e assim, neto do vilão do Batman, Ra's al Ghul. O personagem apareceu originalmente como uma criança sem nome na história de 1987 Batman: Filho do Demônio que, naquele tempo, não era considerado parte do cânone. Depois disso, várias histórias em universos alternativos tratados com a vida do personagem, dando-lhe vários nomes. Em 2006, o personagem foi interpretado como Damian Wayne por Grant Morrison, e introduzido
+      <a href="#page-4">Seção 4</a>
+      </scroll-page>
+   </scroll-container>
+</body>
+</html>
